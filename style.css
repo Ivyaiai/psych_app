@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #4682b4;
+}
+
+#submit-button {
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #5a9bd4;
+}

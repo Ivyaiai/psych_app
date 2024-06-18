@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心理测评与冥想音乐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>心理测评与冥想音乐</h1>
+    </header>
+    <main>
+        <section id="questionnaire-section">
+            <h2>心理问卷测评</h2>
+            <div id="questionnaire-container"></div>
+            <button id="submit-button" onclick="submitAnswers()">提交</button>
+        </section>
+        <section id="music-section">
+            <h2>冥想音乐</h2>
+            <audio controls>
+                <source src="music/meditation1.mp3" type="audio/mpeg">
+                您的浏览器不支持音频元素。
+            </audio>
+        </section>
+        <section id="result-section">
+            <h2>测评结果</h2>
+            <div id="result-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
